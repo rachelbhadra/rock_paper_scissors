@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		90F0B627209E712E00C410E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0B626209E712E00C410E4 /* AppDelegate.swift */; };
-		90F0B629209E712E00C410E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0B628209E712E00C410E4 /* ViewController.swift */; };
 		90F0B62C209E712E00C410E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F0B62A209E712E00C410E4 /* Main.storyboard */; };
 		90F0B62E209E712E00C410E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F0B62D209E712E00C410E4 /* Assets.xcassets */; };
 		90F0B631209E712E00C410E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F0B62F209E712E00C410E4 /* LaunchScreen.storyboard */; };
 		90F0B63C209E712E00C410E4 /* Rock_Paper_ScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0B63B209E712E00C410E4 /* Rock_Paper_ScissorsTests.swift */; };
 		90F0B647209E712E00C410E4 /* Rock_Paper_ScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0B646209E712E00C410E4 /* Rock_Paper_ScissorsUITests.swift */; };
+		90F0B655209E79BB00C410E4 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0B654209E79BB00C410E4 /* StartViewController.swift */; };
+		90F0B657209E79CA00C410E4 /* OnePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0B656209E79CA00C410E4 /* OnePlayerViewController.swift */; };
+		90F0B659209E79D900C410E4 /* Player1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0B658209E79D800C410E4 /* Player1ViewController.swift */; };
+		90F0B65B209E79E400C410E4 /* Player2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0B65A209E79E400C410E4 /* Player2ViewController.swift */; };
+		90F0B65D209E79F100C410E4 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0B65C209E79F100C410E4 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		90F0B623209E712E00C410E4 /* Rock Paper Scissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock Paper Scissors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F0B626209E712E00C410E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90F0B628209E712E00C410E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90F0B62B209E712E00C410E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90F0B62D209E712E00C410E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90F0B630209E712E00C410E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		90F0B642209E712E00C410E4 /* Rock Paper ScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rock Paper ScissorsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F0B646209E712E00C410E4 /* Rock_Paper_ScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_Paper_ScissorsUITests.swift; sourceTree = "<group>"; };
 		90F0B648209E712E00C410E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F0B654209E79BB00C410E4 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		90F0B656209E79CA00C410E4 /* OnePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePlayerViewController.swift; sourceTree = "<group>"; };
+		90F0B658209E79D800C410E4 /* Player1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player1ViewController.swift; sourceTree = "<group>"; };
+		90F0B65A209E79E400C410E4 /* Player2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player2ViewController.swift; sourceTree = "<group>"; };
+		90F0B65C209E79F100C410E4 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				90F0B626209E712E00C410E4 /* AppDelegate.swift */,
-				90F0B628209E712E00C410E4 /* ViewController.swift */,
 				90F0B62A209E712E00C410E4 /* Main.storyboard */,
 				90F0B62D209E712E00C410E4 /* Assets.xcassets */,
 				90F0B62F209E712E00C410E4 /* LaunchScreen.storyboard */,
 				90F0B632209E712E00C410E4 /* Info.plist */,
+				90F0B654209E79BB00C410E4 /* StartViewController.swift */,
+				90F0B656209E79CA00C410E4 /* OnePlayerViewController.swift */,
+				90F0B658209E79D800C410E4 /* Player1ViewController.swift */,
+				90F0B65A209E79E400C410E4 /* Player2ViewController.swift */,
+				90F0B65C209E79F100C410E4 /* ResultViewController.swift */,
 			);
 			path = "Rock Paper Scissors";
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90F0B629209E712E00C410E4 /* ViewController.swift in Sources */,
+				90F0B657209E79CA00C410E4 /* OnePlayerViewController.swift in Sources */,
 				90F0B627209E712E00C410E4 /* AppDelegate.swift in Sources */,
+				90F0B655209E79BB00C410E4 /* StartViewController.swift in Sources */,
+				90F0B65B209E79E400C410E4 /* Player2ViewController.swift in Sources */,
+				90F0B659209E79D900C410E4 /* Player1ViewController.swift in Sources */,
+				90F0B65D209E79F100C410E4 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
